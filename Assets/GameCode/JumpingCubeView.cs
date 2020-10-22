@@ -5,8 +5,9 @@ namespace Academy.Animations
     [RequireComponent(typeof(Animation))]
     public class JumpingCubeView : MonoBehaviour
     {
-        [SerializeField]
-        private ParticleSystem _particleSystem;
+       
+        [SerializeField] private ParticleSystem _particleSystem;
+        [SerializeField] private MeshRenderer _planeMesh;
         
         private Animation _animation;
 
@@ -26,6 +27,15 @@ namespace Academy.Animations
         private void PlayPuff()
         {
             _particleSystem.Play();
+        }
+
+        private void ChangeColorToRed()
+        {
+            _planeMesh.material.color = Color.red;
+        }
+        private void ChangeColorToGreen()
+        {
+            _planeMesh.material.color = Color.green;
         }
     }
 }
