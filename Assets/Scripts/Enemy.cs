@@ -69,6 +69,7 @@ public class Enemy : MonoBehaviour
         if (_health == 0)
         {
             isDead = true;
+            _rigidbody.simulated = false;
             _animator.SetBool("Dead", isDead);
             return;
         }
