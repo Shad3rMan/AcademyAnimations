@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8a734d7d-b3cc-47cb-a8ce-ae0517f693ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/BounceAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/BounceAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/JumpingBall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/JumpingBall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/JumpingBallController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/JumpingBallController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bounce.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bounce.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Jim/Jim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jim/Jim.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Jim/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jim/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameCode/JimController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameCode/JimController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jim.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jim.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +37,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GameCode/JimController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Unity/SpaceCruiser/Assets/Scripts/Gameplay/Ship/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GameCode/Jumping.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/GameCode/JimController.cs" />
       </list>
     </option>
@@ -68,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603357927822</updated>
-      <workItem from="1603357931242" duration="2818000" />
+      <workItem from="1603357931242" duration="8090000" />
     </task>
     <servers />
   </component>
@@ -77,6 +97,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
