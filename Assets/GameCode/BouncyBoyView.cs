@@ -7,17 +7,10 @@ namespace Academy.Animations
     {
         [SerializeField]
         private ParticleSystem _particleSystemBoost;
-        [SerializeField]
-        private ParticleSystem _particleSystemLanding;
         
         private void JumpBoost()
         {
             _particleSystemBoost.Play();
-        }
-
-        private void JumpEnd()
-        {
-            _particleSystemLanding.Play();
         }
     }
 }
