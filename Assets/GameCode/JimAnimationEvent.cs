@@ -6,10 +6,12 @@ using UnityEngine;
 public class JimAnimationEvent : MonoBehaviour
 {
     private JimController jimController;
+    private AudioSource audioSource;
 
     private void Awake()
     {
         jimController = GetComponentInParent<JimController>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void JumpStop()
@@ -18,5 +20,10 @@ public class JimAnimationEvent : MonoBehaviour
         {
             jimController.Jump();
         }
+    }
+
+    private void PlayJumpSound()
+    {
+        audioSource.Play();
     }
 }

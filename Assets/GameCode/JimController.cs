@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class JimController : MonoBehaviour
 {
-    [SerializeField] private float walkSpeed = 5f;
+    [SerializeField] private float walkSpeed = 1f;
     private Animator anim;
     private SpriteRenderer spriteRenderer;
     private void Awake()
@@ -15,7 +15,7 @@ public class JimController : MonoBehaviour
     void Update()
     {
         Move();
-        if (Input.GetKeyDown(KeyCode.Space) && !anim.GetBool("isJumping"))
+        if ((Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.UpArrow)) && !anim.GetBool("isJumping"))
         {
             Jump();
         }

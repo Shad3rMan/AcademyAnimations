@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a734d7d-b3cc-47cb-a8ce-ae0517f693ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Animation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Jim/Jim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jim/Jim.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Jim/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jim/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Jim/Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Jim/Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameCode/JimController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameCode/JimController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jim.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jim.unity" afterDir="false" />
     </list>
@@ -44,8 +44,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GameCode/Jumping.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/GameCode/JimController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameCode/JimAnimationEvent.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603357927822</updated>
-      <workItem from="1603357931242" duration="8090000" />
+      <workItem from="1603357931242" duration="9177000" />
     </task>
     <servers />
   </component>
