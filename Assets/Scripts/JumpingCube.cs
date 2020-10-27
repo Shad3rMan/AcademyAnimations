@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class JumpingCube : MonoBehaviour
 {
-    [SerializeField] private Animator _animator = default;
+    private Animator _animator;
+
     [SerializeField] private ParticleSystem _landingEffect = default;
 
     private Material _currentMaterial; 
@@ -15,12 +18,13 @@ public class JumpingCube : MonoBehaviour
 
     private void Update()
     {
+        var dir = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _animator.Play("Jump");
         }
     }
-
+    
     public void PlayLandingEffect()
     {
         Debug.Log("[Animation Event] Play landing effect");

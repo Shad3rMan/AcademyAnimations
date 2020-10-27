@@ -20,15 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d4acdc0-93c6-4965-bbc4-5d266b7837b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameCode.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameCode/JumpingCubeView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameCode/JumpingCubeView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bounce.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bounce.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/CharacterAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/CharacterAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Disarm Over Shoulder.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Disarm Over Shoulder.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Unarmed Equip Over Shoulder.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Unarmed Equip Over Shoulder.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WeaponEquip.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WeaponEquip.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpingCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpingCube.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,12 +59,15 @@
         <option value="$PROJECT_DIR$/Assets/Art/JumpingCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpingCubeView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpingCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jE7gTparL41DykCe8TT7eHWTC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603357508463</updated>
       <workItem from="1603357526488" duration="7518000" />
+      <workItem from="1603788084963" duration="2838000" />
     </task>
     <servers />
   </component>
@@ -112,6 +127,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
