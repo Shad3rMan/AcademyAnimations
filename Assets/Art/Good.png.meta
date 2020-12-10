@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -47,10 +47,10 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -64,7 +64,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -76,7 +76,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -88,7 +88,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,70 +110,8 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: -491, y: -473}
-      - {x: -491, y: -505}
-      - {x: -482, y: -512}
-      - {x: -456, y: -512}
-      - {x: -456, y: -472}
-      - {x: -457, y: -469}
-      - {x: -487, y: -469}
-      - {x: -490, y: -470}
-    - - {x: -469, y: -496}
-      - {x: -462, y: -496}
-      - {x: -462, y: -506}
-      - {x: -466, y: -506}
-      - {x: -467, y: -507}
-      - {x: -469, y: -507}
-    - - {x: -479, y: -500}
-      - {x: -480, y: -497}
-      - {x: -481, y: -496}
-      - {x: -481, y: -488}
-      - {x: -482, y: -487}
-      - {x: -482, y: -477}
-      - {x: -480, y: -477}
-      - {x: -479, y: -485}
-      - {x: -476, y: -488}
-      - {x: -476, y: -489}
-      - {x: -480, y: -489}
-      - {x: -483, y: -492}
-      - {x: -483, y: -493}
-      - {x: -480, y: -496}
-      - {x: -476, y: -496}
-      - {x: -475, y: -504}
-      - {x: -475, y: -503}
-    - - {x: 496, y: -497}
-      - {x: 499, y: -496}
-      - {x: 499, y: -493}
-      - {x: 496, y: -492}
-      - {x: 494, y: -494}
-    - - {x: -23, y: 43}
-      - {x: -31, y: 29}
-      - {x: -36, y: -1}
-      - {x: -36, y: -12}
-      - {x: -28, y: -33}
-      - {x: -27, y: -34}
-      - {x: 18, y: -34}
-      - {x: 18, y: 43}
-    - - {x: 496, y: 486}
-      - {x: 499, y: 487}
-      - {x: 499, y: 490}
-      - {x: 496, y: 491}
-      - {x: 494, y: 489}
-    - - {x: -498, y: 491}
-      - {x: -495, y: 492}
-      - {x: -495, y: 495}
-      - {x: -498, y: 496}
-      - {x: -500, y: 494}
-    physicsShape:
-    - - {x: -24, y: 42}
-      - {x: -35, y: 37}
-      - {x: -35, y: -11}
-      - {x: -27, y: -32}
-      - {x: -14, y: -32}
-      - {x: 16, y: -26}
-      - {x: 16, y: 39}
-      - {x: 13, y: 42}
+    outline: []
+    physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
