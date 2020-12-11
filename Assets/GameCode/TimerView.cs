@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,8 +7,7 @@ namespace GameCode
 {
     public class TimerView : MonoBehaviour
     {
-        [SerializeField]
-        private Text _text;
+        [SerializeField] private TMP_Text _text;
 
         private void Update()
         {

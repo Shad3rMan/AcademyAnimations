@@ -4,25 +4,38 @@ namespace GameCode
 {
     public class ScrollingOffset : MonoBehaviour
     {
-        private Renderer _renderer;
+        [SerializeField] private GameObject[] _cubes;
+
         private Vector3 _startPosition;
-        private Material _material;
-        private Transform _transform;
+
+        private Transform[] _cubesTransform;
+        private Material[] _cubesMaterial;
 
         private void Awake()
         {
-            _renderer = GetComponent<Renderer>();
-            _startPosition = transform.position;
+            _cubesTransform = new Transform[_cubes.Length];
+            _cubesMaterial = new Material[_cubes.Length];
+            for (int i = 0; i < _cubes.Length; i++)
+            {
+                _cubesTransform[i] = _cubes[i].transform;
+                _cubesMaterial[i] = _cubes[i].GetComponent<Renderer>().sharedMaterial;
+            }
+            _startPosition = _cubes[0].transform.position;
         }
 
         private void Update()
         {
-            var offset = _renderer.material.mainTextureOffset;
+            var offset = _cubesMaterial[0].mainTextureOffset;
             offset.y = 1 - Time.time % 1;
-            _renderer.material.mainTextureOffset = offset;
-            var position = transform.position;
-            position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
-            transform.position = position;
+
+
+            for (int i = 0; i < _cubes.Length; i++)
+            {
+                _cubesMaterial[i].mainTextureOffset = offset;
+                var position = _cubesTransform[i].position;
+                position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
+                _cubesTransform[i].position = position;
+            }
         }
     }
 }
