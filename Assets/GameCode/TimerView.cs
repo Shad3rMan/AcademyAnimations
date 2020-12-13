@@ -7,7 +7,7 @@ namespace GameCode
     public class TimerView : MonoBehaviour
     {
         [SerializeField]
-        private Text _text;
+        private Text _text = default;
 
         private void Update()
         {
