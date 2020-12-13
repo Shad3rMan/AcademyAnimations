@@ -9,13 +9,11 @@ namespace GameCode
         [SerializeField]
         private Text _text;
 
+        private string _timeString;
+
         private void Update()
         {
-            var seconds = DateTime.Now.Second;
-            var minutes = DateTime.Now.Minute;
-            var hours = DateTime.Now.Hour;
-            var timeString = hours + ":" + minutes + ":" + seconds;
-            _text.text = timeString;
+            _text.text = DateTime.Now.ToLongTimeString();
         }
     }
 }
