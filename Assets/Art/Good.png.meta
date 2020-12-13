@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 8fb1370e11a8b4652b74229e6aa949f4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6256978819795432554
+    second: Good_0
+  - first:
+      213: -8970443072835512849
+    second: Good_1
+  - first:
+      213: -1054687824615634264
+    second: Good_2
+  - first:
+      213: -6258640384787465128
+    second: Good_3
+  - first:
+      213: 5526043944855451850
+    second: Good_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,17 +55,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.48891687, y: 0.504618}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteBorder: {x: 956, y: 963, z: 995, w: 943}
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -61,10 +76,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,10 +88,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,10 +100,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,10 +112,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,8 +124,80 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: Good_2
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 959
+        width: 102
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa0bd0f20ffc51f0800000000000000
+      internalID: -1054687824615634264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -984, y: -1000}
+      - {x: -978, y: -1024}
+      - {x: -910, y: -1024}
+      - {x: -910, y: -936}
+      - {x: -964, y: -936}
+      - {x: -976, y: -940}
+      - {x: -984, y: -942}
+    - - {x: -936, y: -994}
+      - {x: -926, y: -994}
+      - {x: -926, y: -1010}
+      - {x: -936, y: -1012}
+    - - {x: -958, y: -994}
+      - {x: -960, y: -992}
+      - {x: -954, y: -994}
+      - {x: -954, y: -1002}
+      - {x: -956, y: -1000}
+    - - {x: 986, y: -982}
+      - {x: 986, y: -994}
+      - {x: 990, y: -996}
+      - {x: 998, y: -996}
+      - {x: 1000, y: -994}
+      - {x: 1000, y: -988}
+      - {x: 998, y: -982}
+    - - {x: -962, y: -972}
+      - {x: -962, y: -956}
+      - {x: -960, y: -972}
+      - {x: -954, y: -978}
+      - {x: -954, y: -976}
+      - {x: -960, y: -976}
+    - - {x: -56, y: 86}
+      - {x: -72, y: 42}
+      - {x: -72, y: -68}
+      - {x: 2, y: -68}
+      - {x: 36, y: -52}
+      - {x: 36, y: 86}
+    - - {x: 990, y: 984}
+      - {x: 986, y: 980}
+      - {x: 986, y: 974}
+      - {x: 990, y: 970}
+      - {x: 996, y: 970}
+      - {x: 1000, y: 974}
+      - {x: 1000, y: 978}
+      - {x: 994, y: 984}
+    - - {x: -1000, y: 994}
+      - {x: -1002, y: 988}
+      - {x: -1002, y: 982}
+      - {x: -996, y: 980}
+      - {x: -990, y: 980}
+      - {x: -988, y: 984}
+      - {x: -988, y: 992}
+      - {x: -994, y: 994}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
