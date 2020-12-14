@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,13 +10,15 @@ namespace GameCode
         [SerializeField]
         private Text _text;
 
-        private void Update()
+        WaitForSeconds _waitOneSecond = new WaitForSeconds(1f);
+        private IEnumerator Start()
         {
-            var seconds = DateTime.Now.Second;
-            var minutes = DateTime.Now.Minute;
-            var hours = DateTime.Now.Hour;
-            var timeString = hours + ":" + minutes + ":" + seconds;
-            _text.text = timeString;
+            while (true)
+            {
+                _text.text = DateTime.Now.ToString("h:mm:ss tt");;
+                yield return _waitOneSecond;
+            }
+           
         }
     }
 }
