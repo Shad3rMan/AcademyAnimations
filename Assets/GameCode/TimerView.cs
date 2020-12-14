@@ -11,10 +11,11 @@ namespace GameCode
 
         private void Update()
         {
-            var seconds = DateTime.Now.Second;
-            var minutes = DateTime.Now.Minute;
-            var hours = DateTime.Now.Hour;
-            var timeString = hours + ":" + minutes + ":" + seconds;
+            var dateTime = DateTime.Now;
+            var seconds = dateTime.Second;
+            var minutes = dateTime.Minute;
+            var hours = dateTime.Hour;
+            var timeString = $"{hours}:{minutes}:{seconds}";
             _text.text = timeString;
         }
     }
