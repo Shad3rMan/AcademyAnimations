@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,16 +7,13 @@ namespace GameCode
 {
     public class TimerView : MonoBehaviour
     {
-        [SerializeField]
-        private Text _text;
+        [SerializeField] private Text text = default;
 
-        private void Update()
+        private IEnumerator Start()
         {
-            var seconds = DateTime.Now.Second;
-            var minutes = DateTime.Now.Minute;
-            var hours = DateTime.Now.Hour;
-            var timeString = hours + ":" + minutes + ":" + seconds;
-            _text.text = timeString;
+            text.text = DateTime.Now.ToString("h:mm:ss");;
+            yield return new WaitForSeconds(1f);
+            StartCoroutine(Start());
         }
     }
 }

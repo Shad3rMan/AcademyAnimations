@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 
-namespace Academy.Animations
+namespace GameCode
 {
     [RequireComponent(typeof(Animation))]
     public class JumpingCubeView : MonoBehaviour
     {
-        [SerializeField]
-        private ParticleSystem _particleSystem;
+        [SerializeField] private new ParticleSystem particleSystem = default;
         
         private Animation _animation;
 
@@ -18,14 +17,12 @@ namespace Academy.Animations
         private void Update()
         {
             if (Input.GetMouseButtonDown(0))
-            {
                 _animation[_animation.clip.name].speed *= -1;
-            }
         }
 
         private void PlayPuff()
         {
-            _particleSystem.Play();
+            particleSystem.Play();
         }
     }
 }
