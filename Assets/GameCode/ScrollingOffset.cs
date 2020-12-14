@@ -1,28 +1,31 @@
-﻿using UnityEngine;
+﻿using TMPro.EditorUtilities;
+using UnityEngine;
 
 namespace GameCode
 {
-    public class ScrollingOffset : MonoBehaviour
-    {
+    public class ScrollingOffset : MonoBehaviour {
+        
         private Renderer _renderer;
         private Vector3 _startPosition;
-        private Material _material;
+        private static Material _material;
         private Transform _transform;
 
-        private void Awake()
-        {
+        private void Awake() {
             _renderer = GetComponent<Renderer>();
+            _material = _renderer.material;
             _startPosition = transform.position;
+            _transform = transform;
         }
 
         private void Update()
         {
             var offset = _renderer.material.mainTextureOffset;
             offset.y = 1 - Time.time % 1;
-            _renderer.material.mainTextureOffset = offset;
+            _material.mainTextureOffset = offset;
             var position = transform.position;
             position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
-            transform.position = position;
+            _renderer.sharedMaterial = _material;
+            _transform.position = position;
         }
     }
 }
