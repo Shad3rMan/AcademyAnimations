@@ -14,13 +14,14 @@ namespace GameCode
             _transform = transform;
             _renderer = GetComponent<Renderer>();
             _startPosition = transform.position;
+            _material = _renderer.sharedMaterial;
         }
 
         private void Update()
         {
-            var offset = _renderer.sharedMaterial.mainTextureOffset;
+            var offset = _material.mainTextureOffset;
             offset.y = 1 - Time.time % 1;
-            _renderer.sharedMaterial.mainTextureOffset = offset;
+            _material.mainTextureOffset = offset;
             
             var position = _transform.position;
             position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
