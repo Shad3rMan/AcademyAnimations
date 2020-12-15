@@ -11,6 +11,7 @@ namespace GameCode
 
         private void Awake()
         {
+            _transform = transform;
             _renderer = GetComponent<Renderer>();
             _startPosition = transform.position;
         }
@@ -20,9 +21,9 @@ namespace GameCode
             var offset = _renderer.sharedMaterial.mainTextureOffset;
             offset.y = 1 - Time.time % 1;
             _renderer.sharedMaterial.mainTextureOffset = offset;
-            var position = transform.position;
+            var position = _transform.position;
             position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
-            transform.position = position;
+            _transform.position = position;
         }
     }
 }
