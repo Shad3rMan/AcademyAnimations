@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,13 +10,23 @@ namespace GameCode
         [SerializeField]
         private Text _text;
 
+        private StringBuilder _stringBuilder = new StringBuilder();
+
         private void Update()
         {
-            var seconds = DateTime.Now.Second;
-            var minutes = DateTime.Now.Minute;
-            var hours = DateTime.Now.Hour;
-            var timeString = hours + ":" + minutes + ":" + seconds;
-            _text.text = timeString;
+            UpdateTimeText();
+        }
+
+        private void UpdateTimeText()
+        {
+            _stringBuilder.Clear();
+            _stringBuilder.Append(DateTime.Now.Hour);
+            _stringBuilder.Append(":");
+            _stringBuilder.Append(DateTime.Now.Minute);
+            _stringBuilder.Append(":");
+            _stringBuilder.Append(DateTime.Now.Second);
+
+            _text.text = _stringBuilder.ToString();
         }
     }
 }
