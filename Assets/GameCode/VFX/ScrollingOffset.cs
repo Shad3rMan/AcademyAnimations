@@ -21,6 +21,7 @@ namespace GameCode
             var offset = _renderer.sharedMaterial.mainTextureOffset;
             offset.y = 1 - Time.time % 1;
             _renderer.sharedMaterial.mainTextureOffset = offset;
+            
             var position = _transform.position;
             position.y = _startPosition.y + Mathf.PingPong(Time.time, 1);
             _transform.position = position;
