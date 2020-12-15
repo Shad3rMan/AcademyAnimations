@@ -32,9 +32,9 @@ namespace GameCode
         {
             _stringBuilder.Clear();
             _stringBuilder.Append(DateTime.Now.Hour);
-            _stringBuilder.Append(":");
+            _stringBuilder.Append(_delimeter);
             _stringBuilder.Append(DateTime.Now.Minute);
-            _stringBuilder.Append(":");
+            _stringBuilder.Append(_delimeter);
             _stringBuilder.Append(DateTime.Now.Second);
 
             _text.text = _stringBuilder.ToString();
