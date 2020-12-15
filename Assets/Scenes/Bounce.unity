@@ -2961,6 +2961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 1119773575}
+  _delimeter: ':'
+  _timerUpdateInterval: 1
 --- !u!222 &1119773577
 CanvasRenderer:
   m_ObjectHideFlags: 0
